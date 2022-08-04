@@ -1,0 +1,70 @@
+/* Rodapé */
+footer{
+    background-color: var(--second-color);
+    margin-top: 170px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    color: white
+}
+
+.nav-item{
+    word-spacing: 10px;
+    font-size: 16px;
+    color: white;
+}
+.contate-me{
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    letter-spacing: 2px;
+
+}
+.logo-rodape{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px 40%;
+}
+
+.barra-link{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.footer-texto{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: slategrey;
+    letter-spacing: 1px;
+    align-items: center;
+    margin-right: 24px;
+    padding: 2px 8px;
+}
+
+.footer-texto{
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    transition: all 0.3s ease 0s;
+}
+
+.footer-texto:hover{
+    color: white
+}
+.logo-item{
+    cursor: pointer;
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 14px;
+}

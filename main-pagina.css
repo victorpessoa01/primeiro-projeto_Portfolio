@@ -1,0 +1,77 @@
+/* Sobre */
+
+#main-sobre{
+    background-color: var(--second-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin-top: 200px;
+}
+
+.info-barra{
+    display: grid;
+    font-family: "inter", sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.sobre{
+    display: grid;
+    padding: 0px;
+    justify-items: center;
+}
+
+.descrição-inicio{
+    grid-row: 1/4;
+    grid-column: 1/4;
+    margin-top: -130px;
+}
+
+.descrição-passo{
+    grid-row: 1/4;
+    grid-column: 6/9;
+    margin-top: -130px;
+}
+
+.descrição-incentivo{
+    grid-row: 1/4;
+    grid-column: 10/13;
+    margin-top: -130px;
+}
+
+.title-text{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.legenda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fim de Sobre */
+
+/* Slider */
+#slider-trab{
+    margin-top: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.legenda-texto{
+    background-color: var(--second-color);
+    opacity: 0.8;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Fim de Slider */
+
+/* Trabalhos */
+#main-trab{
+    margin-top: 170px;
+    background-color: var(--second-color);
+}

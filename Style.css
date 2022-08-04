@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap);
+
+:root{
+    --primary-color: rgba(70, 129, 137, 1);
+    --second-color: rgba(1, 25, 54, 1);
+    --font-color: rgb(255, 255, 255);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
